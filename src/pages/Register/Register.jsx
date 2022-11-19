@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
+import './Register.scss'
 import { useNavigate, Link } from "react-router-dom";
 
 const Register = () => {
     return(
-    <div className="formContainer">
-    <div className="formWrapper">
-      <span className="logo">Lama Chat</span>
-      <span className="title">Register</span>
+    <div className="formRegister">
+    <div className="wrapperRegister">
+      <span className="logo">Уютненький чат</span>
+      <span className="title">Регистрация</span>
         <input required type="text" placeholder="логин" />
         <input required type="email" placeholder="email" />
         <input required type="password" placeholder="пароль" />
@@ -14,7 +15,7 @@ const Register = () => {
         <label htmlFor="file">
           <span>Добавить аватар</span>
         </label>
-        <button>Регистарция</button>
+        <button>Регистрация</button>
     </div>
   </div>
 );

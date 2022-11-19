@@ -5,11 +5,11 @@ const Login = () => {
     return (
         <div className="loginContainer">
         <div className="loginWrapper">
-          <span className="logo">Lama Chat</span>
-          <span className="title">Login</span>
+          <span className="logo">Уютненький чат</span>
+          <span className="title">Логин</span>
             <input type="email" placeholder="email" />
             <input type="password" placeholder="password" />
-            <button>Sign in</button>
+            <button>Войти</button>
         </div>
       </div>
     );
