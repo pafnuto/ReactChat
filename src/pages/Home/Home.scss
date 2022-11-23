@@ -1,0 +1,19 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #92a7eb;
+
+.homeWrap{
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(249, 249, 249);
+    padding: 20px 60px;
+    border-radius: 1rem;
+    gap: 10px; }
+
+}
+
