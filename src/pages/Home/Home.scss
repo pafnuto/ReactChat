@@ -7,8 +7,9 @@
 
 .homeWrap{
     display: flex;
+    flex-direction: column;
     overflow: hidden;
-    width: 80%;
+    width: 60%;
     height: 80%;
     background-color: rgb(249, 249, 249);
     padding: 20px 60px;

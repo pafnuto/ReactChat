@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import {RiCamera2Line, RiFolderAddLine, RiMoreFill } from 'react-icons/ri';
+
 const Chat = () => {
     return (
         <div className="chat">
