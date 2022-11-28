@@ -8,10 +8,16 @@
     .wrapperReg{
         display: flex;
         flex-direction: column;
+        align-items: center;
         background-color: rgb(249, 249, 249);
-        padding: 20px 60px;
-        border-radius: 1rem;
-        gap: 10px;
+        padding: 30px 60px;
+        gap: 1.5rem;
+        border-radius: 10px;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .logo{
             font-weight: bold;
@@ -21,8 +27,8 @@
             font-weight: bold;
             font-size: 16px;
         }
-        .button{
-            height: 1rem;
-            width: auto;
+        .input{
+            width: 3rem;
+            height: 3rem;
         }
 }
