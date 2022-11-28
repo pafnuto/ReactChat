@@ -1,7 +1,7 @@
 import Home from './pages/Home/Home.jsx'
 import Login from './pages/Login/Login.jsx'
 import Register from './pages/Register/Register.jsx';
-import AuthContext from "./components/Firebase/AuthContext.jsx";
+import AuthContext from "./components/Context/AuthContext.jsx";
 import { useContext } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import './App.scss'
