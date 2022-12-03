@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import './Chat.scss'
 import {RiCamera2Line, RiFolderAddLine, RiMoreFill } from 'react-icons/ri';
+import MessageList from "../Message/MessageList";
 
 const Chat = () => {
     return (
@@ -13,6 +14,7 @@ const Chat = () => {
             <img src={RiMoreFill} alt="" />
           </div>
         </div>
+        <MessageList />
       </div>
     );
   };

@@ -1,24 +1,13 @@
 import React, { useContext, useState } from 'react';
-import {
-  collection,
-  query,
-  where,
-  getDocs,
-  setDoc,
-  doc,
-  updateDoc,
-  serverTimestamp,
-  getDoc,
-} from "firebase/firestore";
+import {collection,query,where,getDocs,setDoc,doc,updateDoc,serverTimestamp,getDoc} from "firebase/firestore";
 import { db } from "../../firebase";
 import { AuthContext } from "../Context/AuthContext";
 
 
 const Search = () => {
   const [username, setUsername] = useState("");
-  const [user, setUser] = useState(null);
   const [err, setErr] = useState(false);
-
+  const [user, setUser] = useState(null);
   const { currentUser } = useContext(AuthContext);
 
   const handleSearch = async () => {
