@@ -1,23 +1,17 @@
+import './App.scss'
+import Register from './pages/Register/Register.jsx';
 import Home from './pages/Home/Home.jsx'
 import Login from './pages/Login/Login.jsx'
-import Register from './pages/Register/Register.jsx';
-import AuthContext from "./components/Context/AuthContext.jsx";
+import { BrowserRouter, Routes, Route,} from "react-router-dom";
+import { AuthContext } from "./components/Context/AuthContext.jsx";
 import { useContext } from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import './App.scss'
-
 
 function App() {
 
-  /*const { currentUser } = useContext(AuthContext);
+   const { currentUser } = useContext(AuthContext);
+  
+   console.log(currentUser)
 
-  const ProtectedRoute = ({ children }) => {
-    if (!currentUser) {
-      return <Navigate to="/login" />;
-    }
-
-    return children
-  };*/
   return (
     <BrowserRouter>
     <div className="App">

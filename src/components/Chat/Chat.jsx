@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import './Chat.scss'
 import {RiCamera2Line, RiFolderAddLine, RiMoreFill } from 'react-icons/ri';
 
 const Chat = () => {
