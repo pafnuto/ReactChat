@@ -6,6 +6,10 @@ import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { auth, db, storage } from "../../firebase";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { doc, setDoc } from "firebase/firestore";
+<<<<<<< HEAD
+=======
+import {uid} from 'react-uid';
+>>>>>>> b0819863d06962efbd46999cda567cced21ee339
 
 
 const Register = () => {
